@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+}
+h1 {
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 13vh 13vh;
+    column-gap: 5vh;
+    width: 10vh;
+    height: 10vh;
+    margin:auto;
+    margin-top: 5%;
+    visibility: hidden;
+}
+.playArea {
+    margin-top: 5%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 13vh 13vh 13vh;
+    grid-template-columns: 13vh 13vh 13vh;
+    width: 39vh;
+    height: 39vh;
+    padding: 0;
+    border: 1px solid black;
+    
+}
+
+.box {
+    
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 2.5vw;
+    justify-content: center;
+}
+
+.box:active {
+    background: whitesmoke;
+}
